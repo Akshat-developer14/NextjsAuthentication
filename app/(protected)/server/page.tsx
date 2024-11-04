@@ -2,7 +2,7 @@ import { UserInfo } from "@/components/user-info";
 import { currentUser } from "@/lib/auth";
 import { Server } from "lucide-react";
 
-const page = async () => {
+const ServerPage = async () => {
   const user = await currentUser();
   return (
     <UserInfo
@@ -16,4 +16,4 @@ const page = async () => {
   );
 };
 
-export default page;
+export default ServerPage;

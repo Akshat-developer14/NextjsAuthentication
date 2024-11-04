@@ -3,10 +3,8 @@
 import {
   Card,
   CardContent,
-  CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card";
 import { Header } from "./header";
 import { Social } from "./Social";
